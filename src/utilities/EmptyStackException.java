@@ -1,18 +1,17 @@
-package exceptions;
+package utilities;
 
-public class EmptyQueueException extends Exception {
+public class EmptyStackException extends Exception {
 	/**
 	 * This is the main constructor for
 	 * the exception.
 	 */
-	public EmptyQueueException(){}
+	public EmptyStackException(){}
 	/**
 	 * This is the Main Constructor that sends
 	 * the message to the exception class.
 	 * @param msg is the string message being passed
 	 */
-	public EmptyQueueException(String msg){
+	public EmptyStackException(String msg){
 		super(msg);
 	}
-	
 }
